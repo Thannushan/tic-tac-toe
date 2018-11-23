@@ -9,13 +9,3 @@ def print_board(board):
 def make_move(board,player,move):
     board[move] = player
 
-
-
-
-myBoard=[' ']*10 
-
-print_board(myBoard)
-
-myBoard[1] = 'X'
-
-print_board(myBoard)
